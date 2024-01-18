@@ -13,7 +13,7 @@ puts "3. Il y a #{handles_avec_5_lettres} handles avec 5 lettres (sans compter l
 
 # Question 4 -> Combien commencent par une majuscule (première lettre juste après le @) ?
 maj_handle = handles.count { |handle| handle[1].upcase == handle[1] }
-puts "4. Il y a #{capitalized_handles} handle qui commencent par une majuscule."
+puts "4. Il y a #{maj_handle} handle qui commencent par une majuscule."
 
 # Question 5 -> Trie la liste de handle par ordre alphabétique.
 trie_alphabet = handles.sort
